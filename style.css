@@ -23,14 +23,14 @@ li:nth-child(6):hover + li{
     background-color: aqua;
 }
 /* extra */
-li:nth-last-child(8) ~ li {
+li:nth-last-child(n+8) ~ li {
     background-color: green;
     color: white;
     padding: 10px;
     border: 1px solid white;
 }
 
-li:nth-last-child(8){
+li:nth-last-child(n+8){
     background-color: green;
     color: white;
     padding: 10px;
