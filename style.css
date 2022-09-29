@@ -1,0 +1,38 @@
+/* 1 */
+li:nth-child(1){
+    color: red;
+}
+/* 2 */
+li:not(li:nth-last-child(1)){
+   padding: 13px;
+}
+/* 3 */
+li:nth-child(even){
+    background-color: blue;
+}
+/* 4 */
+li:nth-child(3n){
+    list-style-type: square;
+}
+/* 5 */
+li:nth-child(5){
+    color: orange;
+}
+/* 6 */
+li:nth-child(6):hover + li{
+    background-color: aqua;
+}
+/* extra */
+li:nth-last-child(8) ~ li {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+li:nth-last-child(8){
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
