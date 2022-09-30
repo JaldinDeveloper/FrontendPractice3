@@ -1,6 +1,9 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/ratru/ratru1609/ratru160900003/62159255-muchas-estrellas-blancas-de-distintos-tama%C3%B1os-en-el-espacio-exterior-.jpg");
+}
 .btn-launch:hover + .container{
-    transform: translate(0,-1200px);
-    
+    transform:translate(1000px,-1200px) rotate(45deg);
+
 }
 .btn-launch{
     display: flex;
@@ -9,8 +12,8 @@
     position: absolute;
     right: 50px;
     border-radius: 50%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 .container{
     width: 500px;
@@ -18,8 +21,8 @@
     margin: 50px auto;
     position: absolute;
     top: 500px;
-    transition: all 2s ease-in-out;
-    transform: rotate(45);
+    transition: all 2s ease;
+    
 }
 .rocket-base{
     height: 210px;
